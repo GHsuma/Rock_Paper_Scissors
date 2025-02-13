@@ -2,7 +2,6 @@
 
  output 
  start page
-  ![alt text](<Screenshot 2024-08-23 201916.png>)
+![alt text](<Screenshot 2025-02-13 210821.png>)
 moves played by user & computer
-    ![alt text](<Screenshot 2024-08-23 202000.png>)
-[![Watch the video](Screen Recording 2025-02-13 221942.mp4)]
+    ![alt text](<Screenshot 2025-02-13 225019.png>)
