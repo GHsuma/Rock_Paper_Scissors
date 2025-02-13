@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100%;
+    width:100%;
+    position:relative;
+}
+
+.nav{
+    background-color:rgb(13, 13, 89);
+width: 100%;
+height:auto;
+}
+h1{
+    color:chartreuse;
+   text-align: center;
+   font-size: 4.5vw;
+   margin-top: 0;
+   padding:2vw 0;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.winner{
+    width:33vw;
+    height:auto;
+    position:relative;
+}
+ h2{
+    color:teal;   
+    font-size: 3vw;
+    text-align:center;
+    padding-right:2vw;
+}
+
+.game-box{
+    width:fit-content;
+position:relative;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+.contentbox{
+margin-left: 33vw;
+position:relative;
+}
+
+.box{
+   
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+img {
+    height:10vw;
+    width:10vw;
+    transform: rotate(-90deg);
+}
+.foot{
+margin-left: 6vw;
+margin-top:0.8vw} 
+.score {
+    display: flex;
+    height: auto;
+   width:16vw;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.score p{
+    font-size: 3vw;
+    margin-bottom:0% ;
+    font-weight: 500;
+
+}
+.players{
+    width:20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.players p{
+    font-size: 2.75vw;
+    font-weight: 500;
+    margin-top: 1.75vw;
+}
+.user{
+    opacity: 1;
+    box-shadow:2px;
+}
+img:active{
+    transform:scale(1);
+
+ }
+@media (max-width:900px)and (min-width:684px){
+    .content{
+        margin-left: 0;
+    }
+    .nav{
+height:auto;
+width:100%;
+    }
+    h1{
+        font-size: 8vh;
+    }
+    .winner{
+        width:60vw;
+    }
+    h2{
+        font-size: 5vmax;
+        text-wrap: wrap;
+        padding-right: 13vw;
+    }
+    img{
+        height:15vw;
+        width:15vw;
+    }
+    .game-box{
+    }
+    .score{
+        width:30vh;
+    }
+    .score p{
+        font-size: 6vh;
+    }
+    .players{
+        width:35vh;
+    }
+    .players p{
+        font-size: 5vh;
+        padding: 0 2vh;
+    }
+    .foot{
+        margin-left: 9vw;
+    }
+    .contentbox{
+        margin-left: 25vw;
+    }
+}
+@media (max-width:600px){
+    .nav{
+        height:auto;
+    }
+    h1{
+        font-size: 5vh;
+        padding: 2vh 0;
+    }
+    h2{
+        font-size:4vh;
+        padding-right: 2.7h;
+        text-wrap: wrap;
+    }
+    .winner{
+        width:48vh;
+    }
+    img{
+height:15vh;
+width:15vh;
+    }
+.content    {   
+     padding-left: 1.23vh;
+    }
+    .score{
+        width:26vh;
+    }
+    .score p{
+        font-size: 5vh;
+    }
+    .players{
+        width:30vh;
+    }
+    .players p{
+        font-size: 4vh;
+        padding:0 2vh;
+    }
+    .contentbox{
+        margin-left: 7vh;
+    }
+    .foot{
+        padding-left: 4vh;
+    }
+}
