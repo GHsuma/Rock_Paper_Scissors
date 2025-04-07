@@ -16,7 +16,7 @@ height:auto;
 h1{
     color:chartreuse;
    text-align: center;
-   font-size: 4.5vw;
+   font-size: 4vw;
    margin-top: 0;
    padding:2vw 0;
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -40,10 +40,12 @@ display:flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
+margin-left: 3.75vw;
 
 }
 .contentbox{
-margin-left: 33vw;
+margin-left:33vw;
+margin-top: 10px;
 position:relative;
 }
 
@@ -54,13 +56,15 @@ position:relative;
 justify-content: center;
 }
 img {
-    height:10vw;
-    width:10vw;
+    height:8vw;
+    width:8vw;
     transform: rotate(-90deg);
 }
 .foot{
 margin-left: 6vw;
-margin-top:0.8vw} 
+height:40px;
+width:fit-content;
+} 
 .score {
     display: flex;
     height: auto;
@@ -80,11 +84,11 @@ margin-top:0.8vw}
     display: flex;
     justify-content: space-around;
     align-items:flex-start;
+    margin-top:2px;
 }
 .players p{
-    font-size: 2.75vw;
+    font-size: 2vw;
     font-weight: 500;
-    margin-top: 1.75vw;
 }
 .user{
     opacity: 1;
@@ -94,91 +98,3 @@ img:active{
     transform:scale(1);
 
  }
-@media (max-width:900px)and (min-width:684px){
-    .content{
-        margin-left: 0;
-    }
-    .nav{
-height:auto;
-width:100%;
-    }
-    h1{
-        font-size: 8vh;
-    }
-    .winner{
-        width:60vw;
-    }
-    h2{
-        font-size: 5vmax;
-        text-wrap: wrap;
-        padding-right: 13vw;
-    }
-    img{
-        height:15vw;
-        width:15vw;
-    }
-    .game-box{
-    }
-    .score{
-        width:30vh;
-    }
-    .score p{
-        font-size: 6vh;
-    }
-    .players{
-        width:35vh;
-    }
-    .players p{
-        font-size: 5vh;
-        padding: 0 2vh;
-    }
-    .foot{
-        margin-left: 9vw;
-    }
-    .contentbox{
-        margin-left: 25vw;
-    }
-}
-@media (max-width:600px){
-    .nav{
-        height:auto;
-    }
-    h1{
-        font-size: 5vh;
-        padding: 2vh 0;
-    }
-    h2{
-        font-size:4vh;
-        padding-right: 2.7h;
-        text-wrap: wrap;
-    }
-    .winner{
-        width:48vh;
-    }
-    img{
-height:15vh;
-width:15vh;
-    }
-.content    {   
-     padding-left: 1.23vh;
-    }
-    .score{
-        width:26vh;
-    }
-    .score p{
-        font-size: 5vh;
-    }
-    .players{
-        width:30vh;
-    }
-    .players p{
-        font-size: 4vh;
-        padding:0 2vh;
-    }
-    .contentbox{
-        margin-left: 7vh;
-    }
-    .foot{
-        padding-left: 4vh;
-    }
-}
